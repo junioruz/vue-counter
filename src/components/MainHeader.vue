@@ -1,13 +1,13 @@
 <template>
     <header class="header">
         <div class="logo">
-            <a href="../App.vue">
+            <a href="/">
                 <img src="@/assets/img/logo.svg" alt="logo">
             </a>
             <a class="logo__text" href="../App.vue">UDev-counter</a>
         </div>
         <nav class="header__nav">
-            <a href="/">Counter</a>
+            <a href="/" class="nav__text">Counter</a>
             <a href="/">About</a>
             <a href="/">Login</a>
             <a href="/">Register</a>

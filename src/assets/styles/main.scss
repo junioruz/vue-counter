@@ -1,3 +1,7 @@
+// import style file
+@import url(./_counter.scss);
+@import url(./_counterMain.scss);
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +14,7 @@ a {
 }
 
 .container {
-  max-width: 1355px;
+  max-width: 1235px;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
@@ -30,6 +34,7 @@ ul {
 
 body {
   font-family: Jost;
+  background-color: rgb(17, 7, 31, 1);
 }
 
 // Header component
@@ -45,12 +50,21 @@ body {
 		// .header__nav
 
 		&__nav {
+            border-radius: 16px;
+            background: rgba(123, 74, 226, 0.05);
             display: flex;
             align-items: center;
+            padding-left: 65px;
+            height: 60px;
+            width: 40%;
             gap: 25px;
             font-family: 'Jost', sans-serif;
             font-size: 1.5rem;
             font-weight: 500;
+            a:hover {
+              color: #7B4AE2;
+              transition: color 0.2s;
+            }
 		}
 }
 .logo {

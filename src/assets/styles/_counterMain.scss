@@ -1,0 +1,118 @@
+.counter {
+
+		// .counter__main
+
+		&__main {
+            width: 1205px;
+            height: 32rem;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            row-gap: 70px;
+            justify-content: space-between;
+            background-color: rgba(123, 74, 226, 0.1);
+            border: 2px solid rgba(123, 74, 226, 0.5);
+            border-radius: 15px;
+            color: #FFF;
+            font-family: 'Preahvihear', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+		}
+
+		// .counter__name
+
+        &__name {
+            margin-top: 30px;
+            width: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &__name:hover {
+            border-radius: 10px;
+            background-color: rgba(123, 74, 226, 0.10);
+        }
+
+		&__name input {
+            color: #FFF;
+            text-align: center;
+            border: none;
+            background: none;
+            font-family: 'Preahvihear', sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400; 
+		}
+        &__name input:focus {
+            outline: none;
+            border: none;
+        }
+        &__name:hover .bx-edit {
+            opacity: 1;
+        }
+
+		// .counter__count
+
+		&__count {
+            width: 100%;
+            text-align: center;
+            font-family: 'Preahvihear', sans-serif;
+            font-size: 250px;
+            line-height: 210px;
+            font-weight: 400; 
+		}
+
+		// .counter__bottom
+
+		&__bottom {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+		}
+
+		// .counter__left
+
+		&__left {
+		}
+
+		// .counter__minus
+
+		&__minus {
+		}
+
+		// .counter__right
+
+		&__right {
+
+		}
+
+		// .counter__plus
+
+		&__plus {
+		}
+}
+.bx {
+}
+.bx-edit {
+    cursor: pointer;
+    z-index: 3;
+    opacity: 0;
+}
+.bx-check-double {
+    opacity: 0;
+    font-size: 28px;
+    color: rgb(7, 134, 7);
+}
+.bx-check-double:hover {
+    cursor: pointer;
+    color: rgb(47, 205, 47);
+}
+.bx-minus-circle {
+    font-size: 46px;
+}
+.bx-plus-circle {
+    font-size: 46px;
+}
